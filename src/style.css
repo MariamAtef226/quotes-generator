@@ -1,0 +1,76 @@
+body, main{
+    margin: 0;
+    padding:0;
+    height:100vh;
+}
+
+main{
+    position:relative;
+    transition:all ease-in 0.5s;
+}
+
+#quote-box {
+    border-radius: 3px;
+    width:60%;
+    max-width: 550px;
+    padding: 40px 50px;
+    background-color: #fff;
+    position: absolute;
+    display: table;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    transition:all ease-in 0.5s;
+
+}
+
+.quote{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.75em;
+    text-align: center;
+    padding-bottom:30px;
+}
+.author{
+    text-align:right;
+    padding-bottom:30px
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#quote-box .buttons button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    font-size: 0.9em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 10px;
+    opacity: 1;
+    cursor: pointer;
+    transition:all linear 0.4s;
+
+
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    background-color: transparent !important;
+}
+@media (max-width:730px){
+    .quote{
+        font-size:1.2em;
+    }
+    #quote-box{
+        padding: 40px 30px;
+        width:65%;
+    }
+}
