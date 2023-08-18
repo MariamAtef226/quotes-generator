@@ -37,7 +37,6 @@ npm start
 
 ## Demo 📹
 
-<img src='demo/Capture.PNG' alt='demo image' width='75%'>
 <img src='demo/demo.gif' alt='demo gif'>
 
 
